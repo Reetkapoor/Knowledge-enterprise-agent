@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+data/uploads/*
+data/chroma_db/*
+data/documents.json
+!data/uploads/.gitkeep
+!data/chroma_db/.gitkeep
+.streamlit/secrets.toml

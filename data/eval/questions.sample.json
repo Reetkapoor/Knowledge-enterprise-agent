@@ -1,0 +1,49 @@
+{
+  "_comment": "ILLUSTRATIVE FORMAT EXAMPLES ONLY. Every row has illustrative=true, so run_eval skips it. They refer to an imaginary 'hr_policy.pdf'. Replace with ~150-200 human-annotated questions about YOUR uploaded documents.",
+  "questions": [
+    {
+      "id": "ex-001", "illustrative": true,
+      "question": "How many days of annual leave do permanent employees get?",
+      "answerability": "full", "query_type": "SIMPLE",
+      "reference_answer": "Permanent employees receive 20 days of annual leave per calendar year.",
+      "key_facts": ["20 days"],
+      "relevant_evidence": [{"document": "hr_policy.pdf", "pages": [4]}],
+      "expected_citations": [{"document": "hr_policy.pdf", "pages": [4]}],
+      "expected_claims": [{"text": "Permanent employees receive 20 days of annual leave per calendar year.", "label": "SUPPORTED"}]
+    },
+    {
+      "id": "ex-002", "illustrative": true,
+      "question": "Compare the leave policies for permanent and contractual employees.",
+      "answerability": "full", "query_type": "COMPLEX",
+      "reference_answer": "Permanent: 20 days. Contractual: 12 days, no carry forward.",
+      "key_facts": ["20 days", "12 days"],
+      "reference_sub_questions": ["What is the leave policy for permanent employees?", "What is the leave policy for contractual employees?"],
+      "relevant_evidence": [{"document": "hr_policy.pdf", "pages": [4]}, {"document": "hr_policy.pdf", "pages": [6]}],
+      "expected_citations": [{"document": "hr_policy.pdf", "pages": [4]}, {"document": "hr_policy.pdf", "pages": [6]}]
+    },
+    {
+      "id": "ex-003", "illustrative": true,
+      "question": "What is the carry-forward limit, and how is unused leave encashed?",
+      "answerability": "partial", "query_type": "COMPLEX",
+      "reference_answer": "Up to 5 days can be carried forward. The documents do not describe encashment.",
+      "key_facts": ["5 days"],
+      "reference_sub_questions": ["How many unused leave days can be carried forward?", "How is unused leave encashed?"],
+      "relevant_evidence": [{"document": "hr_policy.pdf", "pages": [5]}],
+      "expected_citations": [{"document": "hr_policy.pdf", "pages": [5]}]
+    },
+    {
+      "id": "ex-004", "illustrative": true,
+      "question": "What is the company's policy on sabbaticals?",
+      "answerability": "unanswerable", "query_type": "SIMPLE",
+      "reference_answer": "", "notes": "Topic does not appear in any uploaded document."
+    },
+    {
+      "id": "ex-005", "illustrative": true,
+      "question": "What is the notice period for resignation?",
+      "answerability": "conflicting", "query_type": "SIMPLE",
+      "reference_answer": "handbook_2023.pdf says 30 days; handbook_2024.pdf says 60 days.",
+      "key_facts": ["30 days", "60 days"],
+      "relevant_evidence": [{"document": "handbook_2023.pdf", "pages": [12]}, {"document": "handbook_2024.pdf", "pages": [11]}]
+    }
+  ]
+}
