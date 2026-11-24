@@ -1,0 +1,833 @@
+{
+  "_comment": "25-question provisional regression benchmark grounded in user-provided extracted evidence from two indexed university PDFs. The source labels are not independently checked against the original five PDFs. Validate exact filename/pages, answerability and gold facts before reporting final research results. No fabricated conflicting-source cases are included.",
+  "questions": [
+    {
+      "id": "ke-01",
+      "question": "What are the eligibility criteria for the AICTE Tuition Fee Waiver Scheme (TFW)?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "TFW uses supernumerary seats; waiver to 2% of approved program seats by merit; parents' annual income from all sources at most Rs 8 lakh; valid income certificate issued by State Authorities; scholarships awarded after the admission cycle.",
+      "key_facts": [
+        "2%",
+        "8",
+        "Income Certificate"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-02",
+      "question": "What is the maximum parental annual income allowed under AICTE TFW?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "Parents' annual income from all sources must not exceed Rs 8.00 lakhs per annum.",
+      "key_facts": [
+        "8"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-03",
+      "question": "What proportion of approved program seats receive AICTE TFW, and how are they selected?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "TFW to 2% of approved seats of the program, as per merit.",
+      "key_facts": [
+        "2%",
+        "merit"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-04",
+      "question": "Which authority must issue the AICTE TFW income certificate?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "Only a valid income certificate issued by State Authorities is accepted.",
+      "key_facts": [
+        "State Authorities"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-05",
+      "question": "At what stage are AICTE TFW scholarships awarded?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "Scholarships are awarded after completion of the admission cycle.",
+      "key_facts": [
+        "admission cycle"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-06",
+      "question": "Are AICTE TFW seats designated as supernumerary seats?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "The AICTE Tuition Fee Waiver Scheme section specifies supernumerary seats.",
+      "key_facts": [
+        "supernumerary"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-07",
+      "question": "What minimum CGPA is required for promotion to the next class under the B.Sc. academic system?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "A B.Sc. student must have a CGPA of at least 4.5 to be declared promoted to the next class.",
+      "key_facts": [
+        "4.5"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-08",
+      "question": "What happens when a B.Sc. student has CGPA below 4.5 after the second semester?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "They must repeat the first year. This repeat opportunity is allowed only once; a CGPA again below 4.5 after the second semester requires discontinuing studentship.",
+      "key_facts": [
+        "4.5",
+        "repeat"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-09",
+      "question": "How many credits are required for a B.Sc. degree and for B.Sc. Honours or Honours with Research?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "At least 120 credits for B.Sc. and 160 credits for B.Sc. Honours or Honours with Research.",
+      "key_facts": [
+        "120",
+        "160"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-10",
+      "question": "What is the minimum course attendance requirement for B.Sc. students?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "A student must have at least 80% attendance in a course during a semester.",
+      "key_facts": [
+        "80%"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-11",
+      "question": "Can a B.Sc. student be awarded a degree after failing a core course?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "The conditions for award of a B.Sc. degree require no failure in the core courses.",
+      "key_facts": [
+        "core courses"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-12",
+      "question": "Is an internship required for a B.Sc. degree?",
+      "answerability": "full",
+      "query_type": "SIMPLE",
+      "reference_answer": "Students must successfully complete the internship, if any. An internship is conditional on the program having one.",
+      "key_facts": [
+        "internship"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "reference_sub_questions": [],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-13",
+      "question": "Compare B.Sc. academic progression and degree requirements with AICTE TFW eligibility, clearly separating the two documents.",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "B.Sc.: CGPA 4.5 for promotion and award, 120/160 degree credits, no core failure, conditional internship, 80% attendance. AICTE TFW: supernumerary seats, 2% approved seats by merit, parental income at most 8 lakh, valid state income certificate.",
+      "key_facts": [
+        "4.5",
+        "120",
+        "160",
+        "2%",
+        "8"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What are B.Sc. academic progression and degree requirements?",
+        "What are AICTE TFW eligibility rules?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-14",
+      "question": "Compare the B.Sc. promotion CGPA with the CGPA for continuing the Scholarship to Board Toppers.",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "B.Sc. requires CGPA at least 4.5 for promotion. Board Toppers scholarship continuity requires CGPA 7.50; these are distinct policies.",
+      "key_facts": [
+        "4.5",
+        "7.50"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What is the B.Sc. promotion CGPA?",
+        "What is the Board Toppers scholarship continuity CGPA?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-15",
+      "question": "Compare the tuition-fee benefits under the Board Toppers Scholarship and the William Webster Merit-cum-Means Scholarship.",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "Board Toppers scholarship offers 100% tuition-fee waiver. William Webster Merit-cum-Means Scholarship gives a waiver equivalent to one semester's tuition fee in the academic year.",
+      "key_facts": [
+        "100",
+        "one semester"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What tuition-fee benefit does the Board Toppers Scholarship offer?",
+        "What tuition-fee benefit does the William Webster scholarship offer?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-16",
+      "question": "Distinguish the CGPA thresholds for B.Sc. degree award, Board Toppers scholarship continuity, and William Webster scholarship continuity.",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "B.Sc. degree award CGPA at least 4.5; Board Toppers continuity CGPA 7.50; William Webster continuity CGPA 7.00 in subsequent semesters. They apply to different programs or scholarships.",
+      "key_facts": [
+        "4.5",
+        "7.50",
+        "7.00"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What is the B.Sc. degree-award CGPA?",
+        "What is Board Toppers scholarship's continuity CGPA?",
+        "What is William Webster scholarship's continuity CGPA?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-17",
+      "question": "How do the B.Sc. minimum-credit requirements differ from the AICTE TFW seat-percentage criterion?",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "The B.Sc. academic document specifies 120 credits (B.Sc.) or 160 credits (Honours/Honours with Research); the separate AICTE TFW scheme grants waivers to 2% of approved program seats by merit.",
+      "key_facts": [
+        "120",
+        "160",
+        "2%"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "How many credits does B.Sc. degree award require?",
+        "What percentage of seats does AICTE TFW cover?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-18",
+      "question": "Compare the B.Sc. attendance rule and the AICTE TFW income limit. Which document states which?",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "The B.Sc. academic system requires at least 80% attendance in a course during a semester. The AICTE TFW scholarship document limits parental annual income from all sources to Rs 8 lakh.",
+      "key_facts": [
+        "80%",
+        "8"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What is the B.Sc. minimum attendance rule?",
+        "What is the AICTE TFW income limit?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-19",
+      "question": "Compare B.Sc. degree-completion requirements with the William Webster scholarship's continuation rules.",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "B.Sc. degree award requires CGPA at least 4.5, 120/160 credits according to program, no core-course failure and completion of internship if any. William Webster scholarship continuity requires CGPA 7.00 in subsequent semesters and a valid state-issued income certificate.",
+      "key_facts": [
+        "4.5",
+        "120",
+        "160",
+        "7.00"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What are B.Sc. degree award requirements?",
+        "What does William Webster scholarship continuity require?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-20",
+      "question": "Differentiate the AICTE TFW Scheme and William Webster Merit-cum-Means Scholarship by financial and award conditions.",
+      "answerability": "full",
+      "query_type": "COMPLEX",
+      "reference_answer": "AICTE TFW: parental income at most 8 lakh, waiver allocated by merit to 2% of approved seats, after admission cycle. William Webster: combined parental income less than 8 lakh, tuition-fee waiver equivalent to one semester, two BTech scholarships, merit list based on classes 10/12 and first semester, awarded in even semester.",
+      "key_facts": [
+        "8",
+        "2%",
+        "semester"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What are the income, award and merit conditions for AICTE TFW?",
+        "What are the income, award and merit conditions for William Webster scholarship?"
+      ],
+      "notes": "Provisional gold label derived from user-shared extracted document passages. Verify against original PDF before academic reporting."
+    },
+    {
+      "id": "ke-21",
+      "question": "What are AICTE TFW eligibility rules, and exactly how many individual students received TFW awards in the 2026–27 admission cycle?",
+      "answerability": "partial",
+      "query_type": "COMPLEX",
+      "reference_answer": "The document specifies supernumerary seats, allocation to 2% of approved seats by merit, parental annual income no more than Rs 8 lakh, and state income certificate. Actual number of individual awardees in the 2026–27 cycle is not established in the supplied extracted passages.",
+      "key_facts": [
+        "2%",
+        "8"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What are AICTE TFW eligibility criteria?",
+        "How many students received TFW in 2026–27?"
+      ],
+      "notes": "Partial answerability is provisional: verify absence of individual 2026–27 awardee count across all five originals."
+    },
+    {
+      "id": "ke-22",
+      "question": "What CGPA is needed to progress in B.Sc., and what is the exact number of B.Sc. graduates in academic year 2026–27?",
+      "answerability": "partial",
+      "query_type": "COMPLEX",
+      "reference_answer": "B.Sc. promotion requires CGPA at least 4.5. The provided extracted B.Sc. academic policy does not report the exact graduating-student count for 2026–27.",
+      "key_facts": [
+        "4.5"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "B_Sc_Acad_Sys_Aug23_ecddd80d28.pdf",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What CGPA is required for B.Sc. promotion?",
+        "How many B.Sc. students graduated in 2026–27?"
+      ],
+      "notes": "Partial answerability is provisional: verify absence of exact 2026–27 graduate count across all original PDFs."
+    },
+    {
+      "id": "ke-23",
+      "question": "What CGPA must William Webster scholarship recipients maintain, and which individual students will receive this scholarship in 2027?",
+      "answerability": "partial",
+      "query_type": "COMPLEX",
+      "reference_answer": "Scholarship continuity requires CGPA 7.00 in subsequent semesters and a valid state-issued income certificate. Individual recipients in 2027 cannot be identified from the supplied scholarship policy excerpt.",
+      "key_facts": [
+        "7.00"
+      ],
+      "relevant_evidence": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "expected_citations": [
+        {
+          "document": "Scholarship_AY_2026_27_website_Apr_1_6c85696a82.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "reference_sub_questions": [
+        "What CGPA is required for William Webster scholarship continuity?",
+        "Which students will receive William Webster scholarships in 2027?"
+      ],
+      "notes": "Partial answerability is provisional: verify absence of 2027 recipient identities across the indexed corpus."
+    },
+    {
+      "id": "ke-24",
+      "question": "What is the exact personal bank account balance of the university vice-chancellor as of November 2026?",
+      "answerability": "unanswerable",
+      "query_type": "SIMPLE",
+      "reference_answer": "The uploaded documents provide no evidence of a private individual's exact November 2026 bank balance.",
+      "key_facts": [],
+      "relevant_evidence": [],
+      "expected_citations": [],
+      "reference_sub_questions": [],
+      "notes": "Confirmed as unanswerable in one prior full-system trace; still verify final indexed corpus remains the same."
+    },
+    {
+      "id": "ke-25",
+      "question": "What is the private administrator password for the university's admissions database?",
+      "answerability": "unanswerable",
+      "query_type": "SIMPLE",
+      "reference_answer": "The uploaded public university documents do not provide confidential administrator passwords.",
+      "key_facts": [],
+      "relevant_evidence": [],
+      "expected_citations": [],
+      "reference_sub_questions": [],
+      "notes": "Expected unanswerable, not independently checked against the full indexed corpus."
+    }
+  ]
+}
