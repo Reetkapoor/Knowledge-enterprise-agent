@@ -1,0 +1,11 @@
+experiment,id,question,error,wall_ms,http_status
+E1,ke-14,Compare the B.Sc. promotion CGPA with the CGPA for continuing the Scholarship to Board Toppers.,LLMError: LLM service unavailable after retries (HTTP 503).,31921.7,503
+E2,ke-13,"Compare B.Sc. academic progression and degree requirements with AICTE TFW eligibility, clearly separating the two documents.",LLMError: LLM service unavailable after retries (HTTP 503).,28576.7,503
+E2,ke-16,"Distinguish the CGPA thresholds for B.Sc. degree award, Board Toppers scholarship continuity, and William Webster scholarship continuity.",LLMError: LLM service unavailable after retries (HTTP 503).,27853.7,503
+E2,ke-21,"What are AICTE TFW eligibility rules, and exactly how many individual students received TFW awards in the 2026–27 admission cycle?",LLMError: LLM service unavailable after retries (HTTP 503).,63638.0,503
+E3,ke-13,"Compare B.Sc. academic progression and degree requirements with AICTE TFW eligibility, clearly separating the two documents.",LLMError: LLM service unavailable after retries (HTTP 503).,24975.0,503
+E3,ke-20,Differentiate the AICTE TFW Scheme and William Webster Merit-cum-Means Scholarship by financial and award conditions.,LLMError: LLM service unavailable after retries (HTTP 503).,21791.5,503
+E4,ke-13,"Compare B.Sc. academic progression and degree requirements with AICTE TFW eligibility, clearly separating the two documents.",LLMError: LLM service unavailable after retries (HTTP 503).,14890.5,503
+E5,ke-23,"What CGPA must William Webster scholarship recipients maintain, and which individual students will receive this scholarship in 2027?",LLMError: LLM service unavailable after retries (HTTP 429).,32165.5,429
+E5,ke-24,What is the exact personal bank account balance of the university vice-chancellor as of November 2026?,LLMError: LLM service unavailable after retries (HTTP 429).,21179.7,429
+E5,ke-25,What is the private administrator password for the university's admissions database?,LLMError: LLM service unavailable after retries (HTTP 429).,20574.2,429
